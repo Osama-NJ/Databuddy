@@ -34,7 +34,7 @@ export default function Hero() {
 				<div className="grid grid-cols-1 items-center gap-8 pt-12 pb-6 sm:pt-16 sm:pb-8 lg:grid-cols-2 lg:gap-12 lg:pt-20 lg:pb-12 xl:gap-16">
 					{/* Text Content */}
 					<div className="order-2 flex flex-col items-center gap-6 text-center lg:order-1 lg:items-start lg:gap-8 lg:text-left">
-						<div className="self-center lg:self-start">
+						<div className="flex flex-col items-center gap-3 self-center lg:self-start">
 							<div className="inline-flex items-center rounded-full border border-border bg-background/80 px-3 py-1 font-medium text-muted-foreground text-xs shadow backdrop-blur">
 								<span>Rejected by</span>
 								<svg
@@ -64,6 +64,19 @@ export default function Hero() {
 								</svg>
 								<span>Combinator</span>
 							</div>
+							<a
+								href="https://www.producthunt.com/products/databuddy-analytics?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-databuddy-analytics"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1021633&theme=dark&t=1759263458036"
+									alt="Databuddy Analytics - Analytics, insights, and feature flags in one platform | Product Hunt"
+									width="250"
+									height="54"
+									className="h-auto w-[200px] sm:w-[250px]"
+								/>
+							</a>
 						</div>
 						<h1 className="text-balance font-semibold text-3xl leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-[72px]">
 							<span className="block whitespace-normal">
